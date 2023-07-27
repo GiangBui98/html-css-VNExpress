@@ -6,6 +6,7 @@
 .container-fluid {
     background-color: rgb(255, 255, 255);
     /* font-weight: 500; */
+    font-family: Inter, -;
 }
 
 .dropdown {
@@ -51,14 +52,45 @@
 }
 /* main */
 
-.text-center .col-md-3 {
-    background-color: rgb(69, 206, 51);
+.main-content .col-md-3 {
+    /* background-color: rgb(69, 206, 51); */
+
 }
 
-.text-center .col-md-5 {
-    background-color: rgb(226, 141, 43);
+.fs-6 {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    font-size: 15px;
 }
 
-.text-center .col-md-4 {
-    background-color: rgb(112, 112, 212);
+
+.col-md-3 .fs-6:hover {
+    color: rgb(0, 102, 204);
+}
+
+.main-content .col-md-5 {
+    /* background-color: rgb(226, 141, 43); */
+}
+
+.col-md-5 p {
+    font-size: 14px;
+}
+
+
+.fs-4 {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+
+.main-content .col-md-4 {
+    /* background-color: rgb(112, 112, 212); */
+} 
+
+.fs-7 {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    font-size: 15px;
 }
