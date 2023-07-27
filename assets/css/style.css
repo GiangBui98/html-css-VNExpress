@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container-fluid {
+    background-color: rgb(255, 255, 255);
+    /* font-weight: 500; */
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration-style: solid;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.dropdown:hover {
+    /* text-decoration: underline; */
+    border-bottom: 3px solid green;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    background-color: rgb(238, 238, 238);
+    font-size: 12px;
+}
+
+.dropdown-menu .dropdown-item {
+    font-weight: 500;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: rgb(238, 238, 238);
+    color: rgb(58, 99, 202);
+
+}
+/* main */
+
+.text-center .col-md-3 {
+    background-color: rgb(69, 206, 51);
+}
+
+.text-center .col-md-5 {
+    background-color: rgb(226, 141, 43);
+}
+
+.text-center .col-md-4 {
+    background-color: rgb(112, 112, 212);
+}
