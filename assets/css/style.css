@@ -1,4 +1,4 @@
-* {
+body {
     margin: 0px;
     padding: 0px;
 }
@@ -6,7 +6,7 @@
 .container-fluid {
     background-color: rgb(255, 255, 255);
     /* font-weight: 500; */
-    font-family: Inter, -;
+    font-family: Inter, 
 }
 
 .dropdown {
@@ -19,6 +19,13 @@
     text-decoration-style: solid;
     background-color: rgb(255, 255, 255);
     
+}
+
+
+.dropdown .bi-house {
+    width: 28px;
+    height: 28px;
+
 }
 
 .dropdown:hover {
@@ -51,7 +58,7 @@
 
 }
 /* main */
-
+/* 1st */
 .main-content .col-md-3 {
     /* background-color: rgb(69, 206, 51); */
 
